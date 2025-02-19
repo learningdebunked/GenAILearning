@@ -97,12 +97,35 @@ What custom AI App can i create ? Is it possible ?
 Neural networks
 CNN ?
 Attention mechanism?
+
 Encode? {the part that understands the input}
+
 Decoder? {the part that generates the output}
+
 Reinforcement learning with human feedback (RLHF)
+
 Prompt Engineering
+
 In context learning {ICL}
+
 Vector Databases and their roles in ML
+
 VSS - Vector similarity Search
+
+AI/ML/GenAI general:
+DeepLearning.AI https://www.deeplearning.ai/short-courses/ai-python-for-beginners/ (this site has lots AI related courses)
+AWS skillbuilder https://explore.skillbuilder.aws/learn/learning-plans/2217/aws-artificial-intelligence-practitioner-learning-plan
+Machine Learning University https://www.youtube.com/@machinelearninguniversity1942
+Role based learning general + AWS https://aws.amazon.com/ai/learn/
+Prompt eng guide https://www.promptingguide.ai/ 
+
+
+AWS specific:
+Generative AI Foundations on AWS https://www.youtube.com/watch?v=oYm66fHqHUM&list=PLhr1KZpdzukf-xb0lmiU3G89GJXaDbAIF
+workshops
+https://catalog.us-east-1.prod.workshops.aws/workshops/63069e26-921c-4ce1-9cc7-dd882ff62575/en-US 
+https://catalog.us-east-1.prod.workshops.aws/workshops/972fd252-36e5-4eed-8608-743e84957f8e/en-US
+https://catalog.workshops.aws/building-gen-ai-apps/en-US
+all others https://workshops.aws/ 
 
 
