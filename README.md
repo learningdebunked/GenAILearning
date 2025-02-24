@@ -21,6 +21,8 @@ Central processing units (CPUs) are designed for general-purpose computing tasks
 
 What is LLM?
 An LLM is a general-purpose model primarily useful for tasks related to unstructured text data
+LLMs are sophisticated predictive models that anticipate the next word in a sequence based on the context provided to them as part of a process referred to as a completion. Carefully constructed prompts help these models deliver tailored content, yielding better completions. LLM performance is influenced not only by
+the training data but also by the context provided by these user inputs
 
 Types of LLMs:
 1) General purpose LLM
@@ -49,6 +51,52 @@ c) inference: process of using model to generate text
 
 Governance: Models need data , instead of moving data to models , to ensure security move models to where data resides to ensure security
 
+**LLM APP Project Lifecycle**
+     
+     **Define the use case and the scope**
+          1) create personalized product descriptions
+          2) summarize transcripts
+          3) extract answers from documents
+          4) create compelling characters for a video game 
+          5) to train a computer vision system to recognize particlar objects
+
+     **determine what proprietary data you will use to customize or contextualize the model effectively**
+     **Selecting  the right LLM **
+          **Hosted LLMs **
+               a) BARD
+               b) Chat GPT
+          **Open source LLMs **
+               a) LLama
+
+          The parameters in a language model refer to the trainable variables. More parameters mean more knowledge is part of the model out of the box, but bigger isn’t always better. 
+          Smaller LLMs have fewer parameters and thus consume less compute resources and are faster to fine-tune and deploy.
+
+           LLMs  have a higher number of parameters (typically 10 billion or more) and can learn more nuanced language patterns, and provide more
+           accurate and contextually relevant outputs for a wider range of scenarios.
+           For example, with only 117 million parameters, GPT-2 is a good choice for a narrow set of tasks such as language completion and summarization. With 175 billion parameters, GPT-3 is            better for complex tasks, such as translating text and generating dialogue.
+
+
+**How can you adapt LLMs to your use cases?**
+
+1) Prompt Engineering
+          a) Text prompts to LLMs to generate the responses
+          b) Prompt engineering is the practice of crafting inputs to shape the output of a language model and achieve a desired result
+          c) Prompt Engineering Techniques
+                  1) Zero-shot -- Zero-shot prompting is the default; you simply issue a question and rely on the LLM’s pretrained information to answer it.
+                  2) one - shot -- You include an example of the desired output to help the model understand the desired output
+                  3) Few - shot -- multiple examples to more clearly teach LLMs the desired output structure and language
+
+3)
+4) In context learning AKA ICL -- allows the LLM to dynamically update its understanding during a conversation
+             a)  in-context learning (ICL) involves training a language model with a data set that aligns with the desired context or domain.
+             b) ICL allows users to give context to the model using private data, enhancing its performance in specific domains
+6) Retrieval augmented generation ( RAG ) -- combines retrieval and generation models to surface new relevant data as part  of a prompt
+
+          RAG leverages a pretrained language model in conjunction with a large-scale vector search system to enhance the content-generation process. 
+8) Fine tuning
+9) Re-inforcement learning from human feedback ( RLHF) -- Fine tune models in real time by providing feedback from human evaluators
+
+
 history :
 
 What is classification?
@@ -61,6 +109,8 @@ What is NLP ?
 What are CNN ? {convolutional neural networks } ? – Computer vision tasks
 What are RNN ? {Recurrent neural networks} ? – sequential data processing 
 What are LLMs ? {Large language models }
+Predictive model ??
+What is a large-scale vector search system that is used in RAG ?
 What are Multimodal language model ?
   Multimodal, meaning it handles both text and other media such as images.
   
@@ -111,6 +161,8 @@ In context learning {ICL}
 Vector Databases and their roles in ML
 
 VSS - Vector similarity Search
+
+Retrieval and Generational model 
 
 AI/ML/GenAI general:
 DeepLearning.AI https://www.deeplearning.ai/short-courses/ai-python-for-beginners/ (this site has lots AI related courses)
