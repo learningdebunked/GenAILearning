@@ -92,9 +92,18 @@ Governance: Models need data , instead of moving data to models , to ensure secu
              b) ICL allows users to give context to the model using private data, enhancing its performance in specific domains
 6) Retrieval augmented generation ( RAG ) -- combines retrieval and generation models to surface new relevant data as part  of a prompt
 
-          RAG leverages a pretrained language model in conjunction with a large-scale vector search system to enhance the content-generation process. 
+          RAG leverages a pretrained language model in conjunction with a large-scale vector search system to enhance the content-generation process.
+          RAG accesses up-to-date information by retrieving relevant data stored as vectors (numerical representation of the data for fast retrieval
+   
 8) Fine tuning
 9) Re-inforcement learning from human feedback ( RLHF) -- Fine tune models in real time by providing feedback from human evaluators
+          This is a form of fine tuning
+          Creators of LLM systems use this to tune their chat bots to carry realistic conversations
+
+
+Vectors and Vector DB: These mathematical representations enable efficient storage and searching of data, as well as identification of semantically related text.
+//TODO What are the vector db in the market and what are the use cases that they solve?
+         
 
 
 history :
@@ -170,6 +179,8 @@ AWS skillbuilder https://explore.skillbuilder.aws/learn/learning-plans/2217/aws-
 Machine Learning University https://www.youtube.com/@machinelearninguniversity1942
 Role based learning general + AWS https://aws.amazon.com/ai/learn/
 Prompt eng guide https://www.promptingguide.ai/ 
+
+Vectors {in the context of RAG / AI} & Vector db??
 
 
 AWS specific:
