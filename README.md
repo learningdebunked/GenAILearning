@@ -1,5 +1,10 @@
 # GenAILearning
+
 My baby steps into GenAI
+
+
+![image](https://github.com/user-attachments/assets/f518e6c2-e1b2-43ab-a17a-58fd76953515)
+
 
 what is Gen AI ?
 
