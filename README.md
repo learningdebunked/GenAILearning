@@ -109,7 +109,17 @@ Governance: Models need data , instead of moving data to models , to ensure secu
 Vectors and Vector DB: These mathematical representations enable efficient storage and searching of data, as well as identification of semantically related text.
 //TODO What are the vector db in the market and what are the use cases that they solve?
          
+Integral components of data pipelines that feed LLMs:
+     a) Semantic caching: 
+     This significantly reduces the computational overhead and speeds up the response generation process.
+               Ex: let’s say that you have a chatbot that needs to generate responses to user queries. Before the bot goes live, it can precompute the semantic representations
+               of a large set of possible user queries and store them in a cache
+     b) Feature injection: refers to the process of incorporating additional information or features into the AI model
+     c) Context retrieval: Context retrieval involves retrieving relevant contextual information to enhance the understanding of AI models.
 
+LLMs can initiate actions by interacting with APIs.LLMs can also establish connections with other programming resources, such as a Python interpreter, which allows them to
+incorporate precise calculations into their outputs. These integrations broaden the capabilities of LLMs and enable them to interact
+with various external applications, enhancing their overall functionality and versatility     
 
 history :
 
@@ -196,4 +206,5 @@ https://catalog.us-east-1.prod.workshops.aws/workshops/972fd252-36e5-4eed-8608-7
 https://catalog.workshops.aws/building-gen-ai-apps/en-US
 all others https://workshops.aws/ 
 
+Lang chain ???
 
